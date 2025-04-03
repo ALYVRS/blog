@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 40px;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,11 +32,13 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+    list-style:none;
     padding: 0;
-    margin: 0;
+    margin: 3;
     display: flex;
-    gap: 20px;
+    gap: 70px;
+    size: 20px;
+    font-size: 25px;
 }
 
 nav ul li {
@@ -74,10 +76,24 @@ nav ul li a:hover {
 #trends { background-image: url(src/3.jpg); }
 #identity { background-image: url(src/1.jpg); }
 #culture { background-image: url(src/5.jpg); }
-#sustainability { background-image: url('sustainability.jpg'); }
-#streetstyle { background-image: url('streetstyle.jpg'); }
-#wishlist { background-image: url('wishlist.jpg'); }
-#moodboard { background-image: url('moodboard.jpg'); }
+
+
+#moodboard { 
+    background-image: url('src/Warm\ Neutral\ Moodboard.png'); 
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
 
 .content {
     padding: 50px;
@@ -96,5 +112,9 @@ section.content {
     background-color: rgb(216, 182, 146);  
     padding: 50px;
     text-align: center;
+}
+
+h2{
+    font-size: 80px;
 }
 
