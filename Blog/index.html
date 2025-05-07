@@ -1,104 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Mode</title>
+    <title>Mijn Modeblog</title>
     <link rel="stylesheet" href="style.css">
-    <script src=“https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js”></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Imperial+Script&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Mijn Modeblog</h1>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+            <ul class="navmenu">
+                <li><a href="#Mode & identiteit">Mode & identiteit</a></li>
+                <li><a href="#Street style">Street style</a></li>
+                <li><a href="#ootd">OOTD</a></li>
+                <li><a href="#geschiedenis">Modegeschiedenis</a></li>
+                <li><a href="#wishlist">Wishlist</a></li>
+                <li><a href="#moodboard">Moodboard</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Mijn Mode Blog</h1>
-    <nav>
-        <ul>
-            <li><a href="#history">Geschiedenis</a></li>
-            <li><a href="#trends">Trends</a></li>
-            <li><a href="#identity">Identiteit</a></li>
-            <li><a href="#culture">Cultuur</a></li>
-            <li><a href="#sustainability">Duurzaamheid</a></li>
-            <li><a href="#streetstyle">Street Style</a></li>
-            <li><a href="#wishlist">Wishlist</a></li>
-            <li><a href="#moodboard">Moodboard</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <section id="Mode & identiteit" class="blog-section">
+            <h2>Mode & identiteit</h2>
+            <div class="image-wrap">
+                <img src="src/5.jpg" alt="foto 1">
+                <img src="src/11.jpg" alt="foto 2">
+                <img src="src/14.jpg" alt="foto 3">
+                <img src="src/10.jpg" alt="foto 4">
+                <img src="src/4.jpg" alt="foto 5">
+            </div>
+            <p>Mode is voor mij veel meer dan kleding; het is een manier om mijn identiteit te uiten. Wat ik draag zegt iets over wie ik ben, hoe ik me voel en wat ik belangrijk vind. Iedereen heeft een unieke stijl waarmee ze zichzelf kunnen laten zien. Mode biedt de vrijheid om jezelf te uiten zonder woorden, en het stelt ons in staat om onze persoonlijkheid te tonen. De vijf outfits hierboven laten zien hoe mode een krachtig middel is om onze eigen identiteit zichtbaar te maken.</p>
+        </section>
 
-<section class="parallax" id="history">
-    <h2>Mode Geschiedenis</h2>
-</section>
+        <section id="Street style" class="blog-section">
+            <h2>Street style</h2>
+            <div class="image-wrap">
+                <img src="src/street4.jpg" alt="foto 1">
+                <img src="src/street5.jpg" alt="foto 2">
+                <img src="src/street3.jpg" alt="foto 3">
+                <img src="src/street2.jpg" alt="foto 4">
+                <img src="src/street1.jpg" alt="foto 5">
+            </div>
+            <p>Street style is ontstaan in de jaren ’70 en ’80 in steden zoals New York en Los Angeles. Het kwam voort uit hiphopcultuur, skateboardscènes en jongeren die zich wilden onderscheiden van de mainstream. Artiesten zoals 2Pac, 50 Cent, Snoop Dogg... brachten deze stijl wereldwijd onder de aandacht. Denk aan baggy jeans, bandana’s, sneakers en opvallende kettingen — kleding werd een vorm van expressie. Wat mij altijd heeft geïnspireerd aan street style is hoe het vrijheid en persoonlijkheid uitstraalt. Het is geen mode die opgelegd wordt door regels, maar eentje die van de straat komt. Voor mij betekent het: jezelf durven zijn.</p>
+        </section>
 
-<section class="content">
-    <p>info over modegeschiedenis</p>
-</section>
+        <section id="ootd" class="blog-section">
+            <h2>Outfit of the Day (OOTD)</h2>
+            <div class="image-wrap">
+                <img src="src/ootd1.jpg" alt="OOTD foto 1">
+                <img src="src/ootd2.jpg" alt="OOTD foto 2">
+                <img src="src/ootd3.jpg" alt="OOTD foto 3">
+                <img src="src/ootd4.jpg" alt="OOTD foto 4">
+                <img src="src/ootd5.jpg" alt="OOTD foto 5">
+            </div>
+            <p>Voor mijn OOTD kies ik outfits waarin ik me goed voel. Ik hou van kleren waarin ik vrij kan bewegen en mezelf kan zijn. Comfort en zelfvertrouwen staan voor mij op de eerste plaats. Vroeger durfde ik me niet aan te kleden zoals ik echt wou, uit angst voor wat anderen zouden denken. Maar met de tijd ben ik sterker geworden en durf ik meer. Als mensen mijn stijl niet accepteren, zijn het gewoon geen mensen die ik nodig heb. Hierboven heb ik enkele outfits geplaatst die ik heel mooi vind en die ik graag zou willen namaken.</p>
+        </section>
 
-<section class="parallax" id="trends">
-    <h2>Mode Trends</h2>
-</section>
+        <section id="geschiedenis">
+            <div class="geschiedenis-container">
+              <h2>Mode in de geschiedenis</h2>
+              <p class="geschiedenis-tekst">Mode heeft door de geschiedenis heen altijd een manier geweest om identiteit en sociale status uit te drukken. In de oudheid was kleding vooral functioneel, maar in de loop der tijd werden kledingstukken een weerspiegeling van de samenleving. In de middeleeuwen droegen rijke mensen luxe stoffen, terwijl de arme bevolking eenvoudiger kleding had. In de 18e eeuw werd mode nog meer een teken van status, met extravagante jurken en kostuums. De 19e eeuw bracht massaproductie van kleding en modebladen, waardoor mode toegankelijker werd voor iedereen. De 20e eeuw bracht de grootste veranderingen, van de strakke stijlen van de jaren '20 tot de rebelse grunge mode van de jaren '90. Mode werd meer een manier om je persoonlijkheid te uiten in plaats van alleen je sociale status te tonen. Vandaag de dag is mode wereldwijd een manier om jezelf uit te drukken, je creativiteit te tonen en je plek in de samenleving te laten zien. Mode is niet alleen kleding, maar een kunstvorm die steeds blijft evolueren. Zelf ben ik altijd al geïnspireerd door de mode uit de vroegere tijden. Van de stijlen uit de jaren '60 tot de extravagantie van de 18e eeuw, ik vond het altijd fascinerend hoe mode door de eeuwen heen de persoonlijkheden en waarden van mensen weerspiegelde. Dit heeft mijn eigen visie op mode en zelfexpressie altijd beïnvloed.</p>
+            </div>
+          </section>
 
-<section class="content">
-    <p>Trends van nu en de toekomst</p>
-</section>
+        <section id="wishlist" class="blog-section">
+            <h2>Wishlist</h2>
+            <ul class="wishlist-list">
+                <li>
+                    <span class="item-name"> Zak</span>
+                    <a href="https://fr.vestiairecollective.com/sacs-femme/sacs-a-main/dior/sac-a-main-dior-en-coton-rose-54456624.shtmlm" target="_blank" class="wishlist-button">Bekijk</a>
+                </li>
+                <li>
+                    <span class="item-name"> Jas</span>
+                    <a href="https://fr.vestiairecollective.com/vetements-homme/vestes-blousons/american-vintage/vesteblouson-american-vintage-en-cuir-noir-47863136.shtml" target="_blank" class="wishlist-button">Bekijk</a>
+                </li>
+                <li>
+                    <span class="item-name"> Hakken</span>
+                    <a href="https://fr.vestiairecollective.com/chaussures-femme/sandales/jimmy-choo/sandales-jimmy-choo-saeda-en-a-paillettes-beige-55072645.shtml" target="_blank" class="wishlist-button">Bekijk</a>
+                </li>
+                <li>
+                    <span class="item-name"> Jurk</span>
+                    <a href="https://www.ohpolly.com/products/caira-embellished-scarf-detail-mini-dress-black?nosto_source=cmp&nosto=2013309519" target="_blank" class="wishlist-button">Bekijk</a>
+                </li>
+            </ul>
+        </section>
 
-<section class="parallax" id="identity">
-    <h2>Mode & Identiteit</h2>
-</section>
+        <section id="moodboard" class="blog-section">
+            <h2>Moodboard</h2>
+            <div class="image-wrap1">
+                <img src="src/Warm Neutral Moodboard.png" alt="Moodboard afbeelding 1">
+            </div>
+            <p>Ik heb deze moodboard gecreëerd op Canva, waar ik verschillende foto's heb verzameld die mij inspireren. Elke afbeelding vertegenwoordigt een stukje van mijn persoonlijke stijl en visie op mode. Daarnaast heb ik enkele kleuren toegevoegd die ik graag draag, omdat ze perfect passen bij de esthetiek die ik wil uitstralen. Het was een leuk proces om deze beelden samen te brengen, omdat ze me herinneren aan de dingen die ik mooi vind en die mijn creativiteit aansteken. Het weerspiegelt alles wat ik waardeer in mode – van kleuren en stoffen tot de manier waarop mensen zich uiten door hun kleding.</p>
+        </section>
+    </main>
 
-<section class="content">
-    <p>Hoe mode je persoonlijkheid weerspiegelt</p>
-</section>
+    <footer>
+        <p>&copy; 2025 Mijn Modeblog | Gemaakt door Alycia Verschatse</p>
+    </footer>
 
-<section class="parallax" id="culture">
-    <h2>Mode & Cultuur</h2>
-</section>
+    <button id="topButton" title="Naar boven">Top</button>
 
-<section class="content">
-    <p>Culturele invloeden in mode</p>
-</section>
+<script>
+   
+    const topButton = document.getElementById("topButton");
 
-<section class="parallax" id="sustainability">
-    <h2>Duurzame Mode</h2>
-</section>
+    window.onscroll = function() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            topButton.style.display = "block";
+        } else {
+            topButton.style.display = "none";
+        }
+    };
 
-<section class="content">
-    <p>Eco-vriendelijke en ethische mode</p>
-</section>
-
-<section class="parallax" id="streetstyle">
-    <h2>Street Style</h2>
-</section>
-
-<section class="content">
-    <p>Inspiratie uit de straten</p>
-</section>
-
-<section class="parallax" id="wishlist">
-    <h2>Wishlist</h2>
-</section>
-
-<section class="content">
-    <p>Mode-items die ik graag wil hebben</p>
-</section>
-
-<section class="parallax" id="moodboard">
-    <h2>Moodboard</h2>
-</section>
-
-<section class="content">
-    <p>Bekijk mijn moodboard met de laatste trends en kleuren die ik inspirerend vind!</p>
-    <button onclick="window.location.href='https:www.canva.com/design/DAGR2e0_teE/V6rXXHZDwRlctdwxOhOELg/edit'">Bekijk Moodboard</button>
-</section>
-
-<section class="parallax" id="wishlist">
-    <h2>Wishlist</h2>
-</section>
-
-
-<footer>
-    <p>&copy; 2025 Mijn Mode Blog | <a href="#history">Lees meer</a></p>
-</footer>
-<script src='sketch.js'></script> 
-
+    // Scroll naar boven!!!!!
+    topButton.onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
 </body>
-
 </html>
